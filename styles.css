@@ -1,0 +1,32 @@
+body {
+    background-color: #adb5bd;
+}
+
+.formStyle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formStyle p {
+    clear: both;
+    padding-top: 10px;
+}
+
+.formStyle input {
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.formStyle button {
+    border-radius: 25px;
+    background-color: white;
+}
